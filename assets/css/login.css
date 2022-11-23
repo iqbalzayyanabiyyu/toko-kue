@@ -1,0 +1,15 @@
+.body-auth {
+    background-color: var(--bgColor1);
+}
+
+
+.c-image {
+    margin: 0;
+}
+
+
+.c-image img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}

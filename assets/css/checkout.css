@@ -1,0 +1,11 @@
+.card .form-group .c-form-select {
+    border-radius: 10rem;
+}
+
+.card .form-group .c-orders {
+    width: 100% !important;
+    /* height: calc(1.5em + .75rem + 2px); */
+    padding: 1rem 1rem;
+    font-size: .8rem;
+    border-radius: 10rem;
+}
