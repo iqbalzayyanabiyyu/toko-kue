@@ -1,0 +1,110 @@
+/* Variables Styles: Start */
+/* :root {
+    --fontFamily1: "Playfair Display", serif;
+    --fontFamily2: "Nunito Sans", sans-serif;
+
+    --borderStyle: 2px solid #000;
+    --borderRadius: 14px;
+
+    --bgColor1: #F5A5A4;
+    --bgColor2: #A3F5BD;
+
+    --colortext1: #1f1209;
+} */
+
+/* Variables Styles: End */
+
+
+h1 {
+    font-family: var(--fontFamily1);
+    color: var(--colortext1);
+}
+
+
+#wrapper #content-wrapper {
+    background-color: #fff;
+}
+
+
+
+.c-topbar {
+    background-color: var(--bgColor1);
+    border-bottom: var(--borderStyle);
+}
+
+
+
+.c-sidebar {
+    background-color: var(--bgColor1);
+    border-right: var(--borderStyle);
+}
+
+
+
+
+/* My Profile: Start */
+.card .card-body .card-text small {
+    color: red !important;
+}
+
+/* My Profile: End */
+
+
+
+/* List Products 1: Start */
+.list-products .img-product {
+    width: 100%;
+    height: 100vh;
+}
+
+.list-products .img-product .img-item {
+    display: none;
+    border: var(--borderStyle);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0%;
+    left: 0%;
+}
+
+.list-products .img-product .open {
+    display: block;
+}
+
+.list-products .carousel .card {
+    border: var(--borderStyle);
+    border-radius: 0;
+    background-color: var(--bgColor1);
+    color: #fff;
+}
+
+.list-products .carousel .card img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0;
+}
+
+.list-products .carousel .card .c-btn {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/* List Products 1: End */
+
+
+
+/* List Products 2: Start */
+
+.carousel {
+    height: 480px;
+}
+
+.carousel .carousel-indicators button {
+    background-color: rgb(177, 177, 177);
+}
+
+.carousel .carousel-indicators .active {
+    background-color: var(--bgColor1);
+}
+
+/* List Products 2: End */

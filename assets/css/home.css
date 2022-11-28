@@ -1,0 +1,198 @@
+/* Variables Styles: Start */
+/* :root {
+    --fontFamily1: "Playfair Display", serif;
+    --fontFamily2: "Nunito Sans", sans-serif;
+
+    --borderStyle: 2px solid #000;
+    --borderRadius: 14px;
+
+    --bgColor1: #F5A5A4;
+    --bgColor2: #A3F5BD;
+
+    --colortext1: #1f1209;
+} */
+
+/* Variables Styles: End */
+
+
+
+/* Main */
+body {
+    background-color: #fffbfb;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--bgColor1);
+    /* outline: 1px solid slategrey; */
+}
+
+/* Content: Start */
+
+/* Hero: Start */
+.content .hero {
+    background: #fff9f9;;
+    width: 100%;
+    height: 100%;
+}
+
+.content .hero .hero-title .c-btn {
+    border: 2px solid #2a2a2a;
+    color: var(#F5A5A4);
+}
+
+.content .hero .hero-title .c-btn:hover {
+    border: 3px solid #2a2a2a;
+    color: #F5A5A4;
+}
+
+.content .hero .hero-figure {
+    width: 100%;
+}
+
+.content .hero .hero-figure img {
+    width: 95%;
+    height: 99vh;
+    object-fit: cover;
+    /* border-right: var(--borderStyle);
+    border-bottom: var(--borderStyle); */
+}
+
+/* Hero: End */
+
+
+
+/* Desc Products: Start */
+.desc-items {
+    margin-top: 15vh;
+}
+/* Desc Products: End */
+
+
+
+/* List Products: Start */
+.content .list-products .img-product {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+
+.content .list-products .img-product .img-item {
+    display: none;
+    border: none;
+    /* border: var(--borderStyle); */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0%;
+    left: 0%;
+}
+
+.content .list-products .img-product .open {
+    display: block;
+}
+
+.content .list-products .carousel .card {
+    /* border: var(--borderStyle); */
+    border: none;
+    border-radius: 0;
+    background-color: var(--bgColor1);
+    color: #fff;
+}
+
+.content .list-products .carousel .card img {
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.content .list-products .carousel .card .c-btn {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/* .content .list-products .desc-products .btn-control {
+  
+  } */
+
+/* List Products: End */
+
+
+
+/* Comment: Start */
+.comment {
+    overflow-x: hidden;
+    margin-top: 680px;
+}
+
+.c-card {
+    width: 450px;
+    border-radius: 0;
+    border: none;
+    /* border: var(--borderStyle); */
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.comment .c-card .card-title {
+    color: var(--bgColor1);
+}
+
+/* Comment: Start */
+
+
+
+/* Email Newsletter: Start */
+.email-newsletter {
+    background: #fff;
+}
+
+input[type=email] {
+    width: 450px;
+    padding: 11px 40px;
+    border: var(--borderStyle);
+    border-radius: var(--borderRadius);
+    background: none;
+}
+
+.email-newsletter .email-address .c-btn {
+    padding: 0 15px;
+}
+
+.email-newsletter .email-address .c-btn svg {
+    width: 59px;
+    height: 59px;
+    fill: none;
+    border: var(--borderStyle);
+    border-radius: var(--borderRadius);
+}
+
+/* Email Newsletter: End */
+
+
+
+
+
+
+/* Content: Start */
+
+
+
+/* Footer: Start */
+.footer {
+    background-color: var(--bgColor1);
+    color: #fff;
+    border-top: var(--borderStyle);
+}
+
+.footer .navbar-brand .brand {
+    color: #2a2a2a;
+}
+
+/* Footer: End */

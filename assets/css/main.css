@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@import "home.css";
+@import "user-style.css";
+@import "login.css";
+@import "checkout.css";
+
+
+
+
+
+/* Variables Styles: Start */
+:root {
+  --fontFamily1: "Playfair Display", serif;
+  --fontFamily2: "Nunito Sans", sans-serif;
+
+  --borderStyle: 2px solid #000;
+  --borderRadius: 14px;
+
+  --bgColor1: #F5A5A4;
+  --bgColor2: #A3F5BD;
+
+  --colortext1: #2a2a2a;
+}
+
+/* Variables Styles: End */
+
+
+
+
+/* Default Style: Start*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: var(--fontFamily1);
+  color: var(--bgColor1);
+  font-weight: 700;
+
+}
+
+p {
+  font-family: var(--fontFamily2);
+}
+
+/* Default Style: End*/
+
+
+
+
+/* Navbar: Start */
+.navbar {
+  border-bottom: var(--borderStyle);
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar .navbar-brand {
+  font-family: "Playfair Display", serif;
+  color: var(--bgColor1);
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.navbar .c-navbar {
+  flex-grow: 0;
+}
+
+.navbar .c-navbar .navbar-nav .nav-item .nav-link {
+  font-family: "Nunito Sans", sans-serif;
+  color: var(--colortext1);
+  margin: 0 10px;
+}
+
+.navbar .c-navbar .navbar-nav .nav-item .nav-link:hover {
+  color: var(--bgColor1);
+}
+
+/* Navbar: End */

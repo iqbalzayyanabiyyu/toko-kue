@@ -1,0 +1,17 @@
+.body-auth {
+    /* background-color: var(--bgColor1); */
+    background-color: burlywood;
+}
+
+
+.c-image {
+    margin: 0;
+}
+
+
+.c-image img {
+    width: 100%;
+    height: 85vh;
+    /* object-fit: cover; */
+    object-position: right;
+}
